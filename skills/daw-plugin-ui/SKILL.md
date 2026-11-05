@@ -1,9 +1,11 @@
 ---
-name: "audio-plugin-ui"
+name: "daw-plugin-ui"
 description: "Design and build UI for audio plugins and music tools (AU/VST3 in JUCE, web prototypes, DAW-adjacent apps): knobs, faders, meters, A/B, presets, seed/randomize controls, keyboard and mouse conventions musicians expect. Use whenever designing, reviewing or coding a plugin editor, mixer, parameter panel or audio test page."
 ---
 
-# Audio Plugin UI
+# DAW Plugin UI
+
+Author: Hom Yu. Written while building HY Humanizer.
 
 Musicians judge a plugin UI in the first ten seconds, with their ears on the music and one hand on the mouse. The interface must be operable without reading, must never interrupt audio, and must behave like every other plugin in their DAW. Novelty goes into the sound, not into the controls.
 
