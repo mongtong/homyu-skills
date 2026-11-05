@@ -1,4 +1,4 @@
-# hy-skills
+# homyu-skills
 
 Agent skills for building music software, written while developing **HY Humanizer** (an audio-plugin that turns one recorded take into several realistic re-performances).
 
@@ -13,7 +13,7 @@ Skills work with Claude Code, Claude.ai, Cursor, Codex and any agent that reads 
 ## Install
 
 ```bash
-npx skills add mongtong/hy-skills --skill daw-plugin-ui
+npx skills add mongtong/homyu-skills --skill daw-plugin-ui
 ```
 
 Or copy `skills/daw-plugin-ui/SKILL.md` into your agent's skills folder.
