@@ -13,7 +13,7 @@ Skills work with Claude Code, Claude.ai, Cursor, Codex and any agent that reads 
 ## Install
 
 ```bash
-npx skills add <owner>/hy-skills --skill daw-plugin-ui
+npx skills add mongtong/hy-skills --skill daw-plugin-ui
 ```
 
 Or copy `skills/daw-plugin-ui/SKILL.md` into your agent's skills folder.
