@@ -1,11 +1,13 @@
 ---
 name: "daw-plugin-ui"
-description: "Design and build UI for audio plugins and music tools (AU/VST3 in JUCE, web prototypes, DAW-adjacent apps): knobs, faders, meters, A/B, presets, seed/randomize controls, keyboard and mouse conventions musicians expect. Use whenever designing, reviewing or coding a plugin editor, mixer, parameter panel or audio test page."
+description: "Design and build UI for audio plugins and music tools (AU/VST3 in JUCE, web prototypes, DAW-adjacent apps): knobs, faders, meters, A/B, presets, seed/randomize controls, keyboard and mouse conventions musicians expect. Use whenever designing, reviewing or coding a plugin editor, mixer, parameter panel or audio test page. 音訊外掛／DAW 外掛的 UI 規範：旋鈕、推桿、電表、A/B、預設值、Seed 與隨機控制；設計或撰寫外掛介面、mixer、參數面板、音訊測試頁時使用。"
 ---
 
 # DAW Plugin UI
 
-Author: Hom Yu. Written while building HY Humanizer.
+Author: Hom Yu. Written while building HY Humanizer. 繁體中文對照版：`SKILL.zh-TW.md`。
+
+**摘要（繁體中文）**：這份規範讓外掛介面照音樂人的習慣運作：旋鈕垂直拖、Shift 微調、雙擊歸零、數值帶單位；電表有 peak hold 和 clip 鎖定；A/B 要音量對齊；Seed 可見、可輸入、可記下，換 seed 不爆音；深色介面、一個強調色、頻道顏色前後一致；所有能碰的東西都可自動化、可存檔；出貨前跑第 7 節的 10 點檢查。UI 絕不碰音訊執行緒。
 
 Musicians judge a plugin UI in the first ten seconds, with their ears on the music and one hand on the mouse. The interface must be operable without reading, must never interrupt audio, and must behave like every other plugin in their DAW. Novelty goes into the sound, not into the controls.
 
